@@ -39,10 +39,21 @@ extra:
       link: https://discord.gg/jHXTdNjYCg 
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
+    - Contributors: home/contributors.md
+  
   - Beginner Guide:
-    - Onshape Intro: onshape-intro.md
-    - Starter Projects: starter-projects.md
+    - onshape-intro/index.md
+    - Stage 1A: onshape-intro/stages/1a.md
+    - Stage 1B: onshape-intro/stages/1b.md
+    - Stage 1C: onshape-intro/stages/1c.md
+    - Stage 2 Intermediate: onshape-intro/stages/2a.md
+  
+  - Design Challenges:
+    - design-challenge/index.md
+    - Week 1 | Swerve Drivebase: design-challenge/challenges/week1.md
+
   - Resources:
     - Glossary:
       - glossary/index.md
@@ -67,12 +78,15 @@ nav:
         - Internal Belt Driven Elevator: cad-examples/elevator/continuous/examples/belt.md
       - Shooters:
         - cad-examples/shooter/index.md
-        - Andrew's Hyperhive Shooter: cad-examples/shooter/examples/small.md
+        - Andrew's Hyper-Hive Shooter: cad-examples/shooter/examples/small.md
   - Design Standards: design-standards.md
+  - Featurescripts : featurescripts.md
+  - Simplfied parts: Simplfied.md
 
 markdown_extensions:
   - abbr
   - attr_list
+  - md_in_html
   - def_list
   - md_in_html
   - admonition

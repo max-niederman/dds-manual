@@ -1,12 +1,25 @@
 <style>
-img {
-    clear: both;
-    align: left;
-    width: 30%;
-    margin: 0 0 0.4rem 0.4rem;
-}
-</style>
 
+img{
+    padding-top: 2rem;
+    width:75%;
+    height:75%
+}
+
+td{
+    font-size: 1rem;
+    padding: 0rem !important;
+}
+
+table, td{
+    border: none !important;
+}
+ 
+table tr:hover{
+   background-color: transparent !important;
+}
+
+</style>
 
 # CAD Examples
 
@@ -18,20 +31,12 @@ img {
 
 ## Categories
 
-- [Slapdown Style Intakes](intake/slapdown/index.md)
+| | |
+|:-:|:-:|
+| [![](../img/cad-examples/intake/4bar/example.webp)](intake/4bar/index.md)| [![](../img/cad-examples/intake/slapdown/example.webp)](intake/slapdown/index.md) |
+| [4Bar Intakes](intake/4bar/index.md) | [Slapdown Intakes](intake/slapdown/index.md) |
+| [![](../img/cad-examples/elevator/continuous/example.webp)](elevator/continuous/index.md) | [![](../img/cad-examples/elevator/cascade/example.webp)](elevator/cascade/index.md) |
+| [Continuous Elevators](elevator/continuous/index.md) | [Cascade Elevators](elevator/cascade/index.md) |
+| [![](../img/cad-examples/drivebase/2910drivebase.webp)](drivebase/index.md) | [![](../img/cad-examples/shooter/small.webp)](shooter/index.md) |
+| [Swerve Drivebases](drivebase/index.md) | [Shooters](shooter/index.md) |
 
-    ![](../img/cad-examples/slapdown-example.webp)
-
-- [4 Bar Style Intakes](intake/4bar/index.md)
-
-    ![](../img/cad-examples/4bar-example.webp)
-
-- [Cascade Elevators](elevator/cascade/index.md)
-
-    ![](../img/cad-examples/cascade-example.webp)
-
-- [Continuous Elevators](elevator/continuous/index.md)
-
-    ![](../img/cad-examples/continuous-example.webp)
-
-- [Shooters](shooter/index.md)
